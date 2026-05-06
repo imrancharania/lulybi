@@ -1,5 +1,8 @@
 # Lulybi Project
 
+[![Gradle Version](https://img.shields.io/badge/Gradle-9.4.0-blue.svg)](https://gradle.org/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Lulybi provides a unified and extensible framework for interacting with various analytical data sources. It abstracts away data platform complexities, offering a consistent API for data operations and analysis.
 
 ## Modules
@@ -32,4 +35,4 @@ We welcome contributions. Please refer to our [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## License
 
-This project is licensed under the [LICENSE](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
