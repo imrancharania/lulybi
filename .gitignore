@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+/build/
+/out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Local configuration
+local.properties
+
+# Android
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+*.kpt
+
+# Nx (if applicable, based on existing content)
+.nx/installation
+.nx/cache
+.nx/workspace-data
+.nx/self-healing
+
+# Misc
+*.log
+*.swp
+.project
+.settings
+tmp/

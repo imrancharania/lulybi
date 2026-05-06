@@ -1,0 +1,28 @@
+[versions]
+aws = "2.31.6"
+auto-service = "1.1.1"
+lulybi = "1.0.0"
+mockito = "5.7.0"
+javapoet = "1.13.0"
+junit-jupiter = "5.12.1"
+
+[libraries]
+aws-athena = { group = "software.amazon.awssdk", name = "athena", version.ref = "aws" }
+
+auto-service-annotations = { group = "com.google.auto.service", name = "auto-service-annotations", version.ref = "auto-service" }
+
+auto-service = { group = "com.google.auto.service", name = "auto-service", version.ref = "auto-service" }
+
+javapoet = { group = "com.squareup", name = "javapoet", version.ref = "javapoet" }
+
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junit-jupiter" }
+
+lulybi-core = { group = "com.lulybi", name = "lulybi-core", version.ref = "lulybi" }
+lulybi-bom = { group = "com.lulybi", name = "lulybi-bom", version.ref = "lulybi" }
+lulybi-processor = { group = "com.lulybi", name = "lulybi-processor", version.ref = "lulybi" }
+lulybi-athena = { group = "com.lulybi", name = "lulybi-athena", version.ref = "lulybi" }
+
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
+
+[plugins]
+spotless = { id = "com.diffplug.spotless", version = "7.0.4"}

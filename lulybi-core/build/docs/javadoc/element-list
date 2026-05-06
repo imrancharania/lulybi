@@ -1,0 +1,8 @@
+com.lulybi.core.annotation
+com.lulybi.core.exception
+com.lulybi.core.mapping
+com.lulybi.core.processor
+com.lulybi.core.query
+com.lulybi.core.query.condition
+com.lulybi.core.query.operator
+com.lulybi.core.registry
